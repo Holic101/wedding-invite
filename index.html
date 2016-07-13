@@ -5,15 +5,15 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="Tina und Dietrich heiraten in Köln">
-  <meta rel="author" href="https://plus.google.com/u/0/+DevTipsForDesigners/">
-  <meta rel="publisher" href="https://plus.google.com/u/0/+DevTipsForDesigners/">
+  <meta rel="author" href="https://github.com/Holic101">
+  <meta rel="publisher" href="https://github.com/Holic101">
 
   <title>Wir heiraten</title>
   <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
   <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
- 
+
   <link rel="stylesheet" href="assets/css/all.css">
    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCBZYaurNHgUb3Auz4PDVwfPryAKTl3tU8"></script>
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -27,7 +27,7 @@
   <nav>
     <a href="#about">Über Uns</a>
     <a href="#location">Location</a>
-    <a href="#ablauf">Ablauf</a>
+    <a href="#agenda">Ablauf</a>
     <a href="#contact">Kontakt</a>
   </nav>
 
@@ -56,27 +56,57 @@ Wir würden uns daher sehr freuen wenn ihr am <strong>07.10.2016</strong> dabei 
   </div>
 
   </div>
+</section>
+<!--End section about us -->
   <hr>
-  <h3 class="title">Einige unserer schönsten Momente:</h3>
-  <br>
-  <div class="pictures">
+  <h2 class="title">Einige unserer schönsten Momente</h2>
+<section>
 
-    <section id="one" class="slideshow">
-
-    </section>
-    <section id="two" class="slideshow">
-
-    </section>
-    <section id="three" class="slideshow">
-
-    </section>
-    <section id="four" class="slideshow">
-
-    </section>
-    <section id="five" class="slideshow">
-
-    </section>
+  <div class="slider">
+    <div class="slide-viewer">
+      <div class="slide-group">
+        <div class="slide slide-1">
+          <img src="assets/css/img/moments/1.jpg" alt="" />
+        </div>
+        <div class="slide slide-2">
+          <img src="assets/css/img/moments/2.jpg" alt=""  />
+        </div>
+        <div class="slide slide-3">
+          <img src="assets/css/img/moments/3.jpg" alt=""  />
+        </div>
+        <div class="slide slide-4">
+          <img src="assets/css/img/moments/4.jpg" alt=""  />
+        </div>
+        <div class="slide slide-5">
+          <img src="assets/css/img/moments/5.jpg" alt=""  />
+        </div>
+        <div class="slide slide-6">
+          <img src="assets/css/img/moments/6.jpg" alt=""  />
+        </div>
+        <div class="slide slide-7">
+          <img src="assets/css/img/moments/7.jpg" alt=""  />
+        </div>
+        <div class="slide slide-8">
+          <img src="assets/css/img/moments/8.jpg" alt=""  />
+        </div>
+        <div class="slide slide-9">
+          <img src="assets/css/img/moments/9.jpg" alt=""  />
+        </div>
+        <div class="slide slide-10">
+          <img src="assets/css/img/moments/10.jpg" alt=""  />
+        </div>
+        <div class="slide slide-11">
+          <img src="assets/css/img/moments/11.jpg" alt=""  />
+        </div>
+        <div class="slide slide-12">
+          <img src="assets/css/img/moments/12.jpg" alt=""  />
+        </div>
+      </div>
+    </div>
+    <div class="slide-buttons"></div>
   </div>
+
+
 </section>
 
 <section id="location">
@@ -89,24 +119,51 @@ Wir würden uns daher sehr freuen wenn ihr am <strong>07.10.2016</strong> dabei 
 </div>
 </div>
 </section>
+
+<!--Start agenda section -->
 <section id="agenda">
-	<h2>Der Ablauf</h2>
+  <h2>Der Ablauf</h2>
 
-	<span class="border">************************************************************************</span>
-  <details><summary>11:15 Die Trauung</summary><p>Trauung im spanischen Bau des Kölner Rathauses</p></details>
-
-	<details><summary>ca. 12:00 Sektempfang</summary><p>Sektempfang an Ort und Stelle</p></details>
-	<details><summary>ab 15:00 Uhr: K&amp;K</summary><p>Kaffee und Kuchen in der Lessingstr. 62</p></details>
-	<details><summary>ab 17:00 Uhr: Grillen</summary><p>Angrillen in der Lessingstr. 62</p></details>
-	<details><summary>ab 22:00: Party!</summary><p>Aufbruch zur Partymeile</p></details>
-	<span class="border">************************************************************************</span>
-
+  <ul class="accordion">
+    <li>
+      <button class="accordion-control">11:15 Die Trauung</button>
+      <div class="accordion-panel">
+        <p>Trauung im spanischen Bau des Kölner Rathauses</p>
+      </div>
+    </li>
+    <li>
+      <button class="accordion-control">12:00 Sektempfang</button>
+      <div class="accordion-panel">
+        <p>Sektempfang an Ort und Stelle</p>
+      </div>
+    </li>
+    <li>
+      <button class="accordion-control">15:00 Uhr: K&amp;K</button>
+      <div class="accordion-panel">
+        <p>Kaffee und Kuchen in der Lessingstr. 62</p>
+      </div>
+    </li>
+    <li>
+      <button class="accordion-control">17:00 Uhr: Grillen</button>
+      <div class="accordion-panel">
+        <p>Angrillen in der Lessingstr. 62</p>
+      </div>
+    </li>
+    <li>
+      <button class="accordion-control">22:00: Party!</button>
+      <div class="accordion-panel">
+        <p>Aufbruch zur Partymeile</p>
+      </div>
+    </li>
+  </ul>
 </section>
+<!--End agenda section -->
 <section id="contact">
 
-	<h2>So könnt Ihr uns erreichen:</h2>
+
 
 <div class="contact">
+  <h2>So könnt Ihr uns erreichen:</h2>
 	<div class="nameLeft">
 	<p>Tina<br><i class="fa fa-phone"></i><a href="tel:004915154850710"><span>+49 151 548 507 10</span></a></p>
 	<p><i class="fa fa-envelope"></i>tina.v@hotmail.de</p>
@@ -135,7 +192,7 @@ Wir würden uns daher sehr freuen wenn ihr am <strong>07.10.2016</strong> dabei 
    <div class="content-wrap">
      <a href="#about">Über Uns</a>
      <a href="#location">Location</a>
-     <a href="#ablauf">Ablauf</a>
+     <a href="#agenda">Ablauf</a>
      <a href="#contact">Kontakt</a>
 
   <p class="copyright">Created with <i class="fa fa-heart"></i> and <i class="fa fa-coffee"></i> by Dima & Tina</p>
