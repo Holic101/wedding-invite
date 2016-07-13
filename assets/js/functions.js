@@ -99,7 +99,7 @@ function initialize() {
 		e.preventDefault();
 		$(this).next('.accordion-panel').not(':animated').slideToggle();
 	});
-	
+
 //Slider
 $('.slider').each(function() {              // For every slider
   var $this   = $(this);                    // Current slider
@@ -148,7 +148,7 @@ $('.slider').each(function() {              // For every slider
       } else {                             // Otherwise
         move(0);                           // Move to the first slide
       }
-    }, 4000);                              // Milliseconds timer will wait
+    }, 5000);                              // Milliseconds timer will wait
   }
 
   $.each($slides, function(index) {
